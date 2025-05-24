@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ScavLib": {
+      "commandName": "Project"
+    },
+    "Профиль 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\MSI\\Desktop\\ScavDemo\\CasualtiesUnknownDemo.exe"
+    }
+  }
+}
