@@ -45,6 +45,6 @@
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="mkdir &quot;C:\Users\MSI\Desktop\ScavDemo\BepInEx\plugins\$(MSBuildProjectName)&quot;&#xD;&#xA;xcopy /Y /I /Q &quot;$(TargetPath)&quot; &quot;C:\Users\MSI\Desktop\ScavDemo\BepInEx\plugins\$(MSBuildProjectName)&quot;" />
+		<Exec Command="mkdir &quot;C:\Users\MSI\Desktop\ScavDemo\BepInEx\plugins\$(MSBuildProjectName)&quot;&#xD;&#xA;xcopy /Y /I /Q &quot;$(TargetPath)&quot; &quot;C:\Users\MSI\Desktop\ScavDemo\BepInEx\plugins\$(MSBuildProjectName)&quot;&#xD;&#xA;mkdir &quot;C:\Users\MSI\ibanas\Assets\Mod\$(MSBuildProjectName)&quot;&#xD;&#xA;xcopy /Y /I /Q &quot;$(TargetPath)&quot; &quot;C:\Users\MSI\ibanas\Assets\Mod\$(MSBuildProjectName)&quot;&#xD;&#xA;" />
 	</Target>
 </Project>
