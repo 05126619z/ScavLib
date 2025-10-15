@@ -6,9 +6,9 @@ using BepInEx.Logging;
 using MonoMod.RuntimeDetour;
 using UnityEngine;
 
-namespace ScavLib
-{
-    [BepInAutoPlugin("05126619z.scavlib", "ScavLib", "0.0.1")]
+namespace ScavLib;
+
+    [BepInPlugin("05126619z.scavlib", "ScavLib", "0.0.1")]
     public partial class Plugin : BaseUnityPlugin
     {
         public void Awake()
@@ -27,7 +27,7 @@ namespace ScavLib
                 Logger.LogError(e);
             }
             //BundleLoader.LoadAllBundles(Paths.PluginPath, ".scavbundle");
-            Logger.LogInfo($"Plugin {Plugin.Name} is loaded!");
+            Logger.LogInfo($"Plugin ScavLib is loaded!");
         }
     }
-}
+
