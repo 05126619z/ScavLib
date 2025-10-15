@@ -3,8 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ScavLib
-{
+namespace ScavLib;
+
     internal static class Logger
     {
         public static ManualLogSource ManualLogSource { get; private set; } = null!;
@@ -44,4 +44,4 @@ namespace ScavLib
             ManualLogSource?.Log(logLevel, data);
         }
     }
-}
+
